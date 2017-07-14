@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript">
+        setBodyFont();
+        window.onresize = function () {
+            setBodyFont();
+        }
+        function setBodyFont(){
+            var clientWidth = window.innerWidth;
+            if(clientWidth > 640){
+                document.getElementsByTagName('html')[0].style.fontSize = '100px';
+            }else{
+                document.getElementsByTagName('html')[0].style.fontSize = (clientWidth/6.4) + 'px';
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+<!--横屏样式-->
+<div id="landscape"><p>为了您的更好体验，请竖屏显示！</p></div>
+<!--横屏样式-->
+<!--预加载的页面-->
+<div id="loading">
+    <div class="line-spin-fade-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--预加载的页面-->
+
+<!--主程序-->
+<div id="wrap">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <section class="swiper-slide stop-swiping game1">
+                <div class="game1_bg">
+                    <div class="game1_bg_left"></div>
+                    <div class="game1_bg_right"></div>
+                </div>
+
+                <div class="game1_top">
+                    <ul>
+                        <!-- 小三角-->
+                        <li class="layer" data-depth="2.00"></li>
+                        <li class="layer" data-depth="1.70"></li>
+                        <li class="layer" data-depth="1.30"></li>
+                        <li class="layer" data-depth="1.90"></li>
+                        <li class="layer" data-depth="1.20"></li>
+                        <li class="layer" data-depth="1.80"></li>
+                        <li class="layer" data-depth="1.40"></li>
+                        <li class="layer" data-depth="2.00"></li>
+                        <li class="layer" data-depth="1.10"></li>
+                        <!-- 小三角-->
+
+                        <!-- 底部三角型-->
+                        <li class="layer" data-depth="1.10"></li>
+                        <!-- 底部三角型-->
+
+                        <!-- 三角框边线-->
+                        <li class="layer" data-depth="0.30"></li>
+                        <li class="layer" data-depth="0.20"></li>
+                        <li class="layer" data-depth="0.30"></li>
+                        <li class="layer" data-depth="0.20"></li>
+                        <li class="layer" data-depth="0.30"></li>
+                        <!-- 三角框边线-->
+
+                        <!-- 中间三角形-->
+                        <li class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.0s"></li>
+                        <!-- 中间三角形-->
+
+                        <!-- 文字-->
+                        <li class="ani" swiper-animate-effect="my_ani1" swiper-animate-duration="1s" swiper-animate-delay="0.3s"></li>
+                        <li class="ani" swiper-animate-effect="my_ani2" swiper-animate-duration="1s" swiper-animate-delay="0.6s"></li>
+                        <li class="ani" swiper-animate-effect="my_ani1" swiper-animate-duration="1s" swiper-animate-delay="0.9s"></li>
+                        <li class="ani" swiper-animate-effect="my_ani1" swiper-animate-duration="1s" swiper-animate-delay="1.2s"></li>
+                        <!-- 文字-->
+
+                    </ul>
+                </div>
+                <div class="game1_center">
+                    <div class="zhiwen"></div>
+                    <div class="game1_center_1 ani" swiper-animate-effect="my_ani2" swiper-animate-duration="1s" swiper-animate-delay="0.3s"></div>
+                </div>
+                <div class="game1_footer">
+                    <ul>
+                        <li class="ani" swiper-animate-effect="my_ani2" swiper-animate-duration="1s" swiper-animate-delay="0.6s"></li>
+                        <li class="ani" swiper-animate-effect="my_ani2" swiper-animate-duration="1s" swiper-animate-delay="0.9s"></li>
+                        <li class="ani" swiper-animate-effect="my_ani2" swiper-animate-duration="1s" swiper-animate-delay="1.2s"></li>
+                    </ul>
+                </div>
+
+            </section>
+            <section class="swiper-slide stop-swiping game2">
+                <div class="game2_top ani" swiper-animate-effect="bounceIn" swiper-animate-duration="2s" swiper-animate-delay="0s">
+                    <ul>
+                        <li></li>
+                        <li id="deng"></li>
+                    </ul>
+                </div>
+                <div class="game2_center ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s">
+                    <ul id="bar">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+
+                    </ul>
+                </div>
+
+                <div class="game2_footer">
+                <div class="game2_footer_main">
+                <div class="game2_footer_1 ani" swiper-animate-effect="my_ani3" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+                <div class="game2_footer_2 ani" swiper-animate-effect="my_ani4" swiper-animate-duration="1s" swiper-animate-delay="0s"></div>
+                <div class="game2_footer_3 ani" swiper-animate-effect="my_ani5" swiper-animate-duration="1s" swiper-animate-delay="0.3s"></div>
+                <div class="game2_footer_4 ani" swiper-animate-effect="my_ani6" swiper-animate-duration="1s" swiper-animate-delay="0.6s"></div>
+                <div class="game2_footer_shake"></div>
+                </div>
+                </div>
+            </section>
+            <section class="swiper-slide stop-swiping game3">
+                <div class="game3_main ani" swiper-animate-effect="game3_main_ani" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+            </section>
+
+        </div>
+    </div>
+</div>
+<!--主程序-->
+</body>
+
+<!--<audio id="chrmas_music" loop="" autoplay="" src="music/bg.mp3" style="position: absolute;left: 0;top:0;"></audio>-->
+<!--自动播放音乐问题-->
+<!--<script type="text/javascript">-->
+    <!--document.addEventListener('DOMContentLoaded', function () {-->
+        <!--function audioAutoPlay() {-->
+            <!--var audio = document.getElementById('chrmas_music');-->
+            <!--audio.play();-->
+            <!--document.addEventListener("WeixinJSBridgeReady", function () {-->
+                <!--audio.play();-->
+            <!--}, false);-->
+        <!--}-->
+        <!--audioAutoPlay();-->
+    <!--});-->
+<!--</script>-->
+
+<script type="text/javascript" src="js/jquery-min.js"></script>
+<script type="text/javascript" src="js/sea.js"></script>
+<script type="text/javascript">
+    seajs.config({
+        alias:{
+//            "jquery":"jquery-min.js",
+            "zepto":"zepto.min.js",
+            'swiper':'swiper-3.3.1.min.js',
+            'animate':'swiper.animate1.0.2.min.js',
+            'parallax':'jquery.parallax.min.js',
+            'shake':'shake.js'
+        }
+    });
+    //在加载完成时，执行回调
+    seajs.use('main', function(Main) {
+        Main.init();
+    });
+</script>
+</html>
